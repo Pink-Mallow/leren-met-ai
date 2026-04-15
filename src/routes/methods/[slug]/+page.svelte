@@ -3,7 +3,7 @@
 
   const { method } = data
   
-  import MethodCard from '$lib/components/methodCard.svelte'
+  import DetailCard from '$lib/components/detailCard.svelte'
 
 </script>
 
@@ -15,6 +15,7 @@
 <article>
   <h2>{method.title}</h2>
   <p>{method.description}</p>
+  <DetailCard {method} />
 </article>
 
 <style>
