@@ -3,3 +3,4 @@
 import { default as DetailCard } from './components/detailCard.svelte'
 import { default as DetailGuidelines } from './components/detailGuidelines.svelte'
 import { default as DetailSteps } from './components/detailSteps.svelte'
+import { default as DetailTips } from './components/detailTips.svelte'
