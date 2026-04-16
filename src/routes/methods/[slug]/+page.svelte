@@ -4,7 +4,7 @@
   const { method } = data
   
   import DetailCard from '$lib/components/detailCard.svelte'
-
+  import DetailLecturer from '$lib/components/detailLecturer.svelte'
 </script>
 
 <header>
@@ -14,6 +14,7 @@
 <!-- the title and description. The rest is in the MethodCard component -->
 <article>
   <h2>{method.title}</h2>
+  <DetailLecturer {method}/>
   <p>{method.description}</p>
   <DetailCard {method} />
 </article>
@@ -29,17 +30,8 @@
   article {
     margin: 20px;
     padding: 20px;
-    /* width: clamp(300px, 80%, 800px); */
     display: grid;
     border-radius: 10px;
-    align-items: center;
-    /* justify-items: center; */
     gap: 20px;
   }
-
-  h2, p {
-    margin: 5px;
-    padding: 10px;
-  }
-  
 </style>
