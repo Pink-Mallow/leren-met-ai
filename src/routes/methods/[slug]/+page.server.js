@@ -24,7 +24,6 @@ export const load = async ({ params, fetch }) => {
         } : null
     }
 }
-
 // Here a POST request is made to the API to submit a new tip for the method in the detail page [SLUG]. 
 export const actions = {
     addTip: async ({ request, fetch }) => {
