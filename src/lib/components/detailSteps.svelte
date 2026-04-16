@@ -1,6 +1,5 @@
 <script>
   export let method;
-  console.log(method.steps);
 </script>
 
 <section>
@@ -9,10 +8,10 @@
   {@html method.steps}
 </section>
 
-<style>
-  p {
+<!-- <style>
+   {
     margin: 5px;
     margin-left: 20px;
     padding: 10px;
   }
-</style>
+</style> -->
