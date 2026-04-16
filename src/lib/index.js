@@ -5,3 +5,4 @@ import { default as DetailGuidelines } from './components/detailGuidelines.svelt
 import { default as DetailSteps } from './components/detailSteps.svelte'
 import { default as DetailTips } from './components/detailTips.svelte'
 import { default as DetailLecturer } from './components/detailLecturer.svelte'
+import { default as DetailLlm } from './components/detailLlm.svelte'
