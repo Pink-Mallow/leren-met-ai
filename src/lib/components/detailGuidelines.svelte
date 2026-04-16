@@ -9,6 +9,3 @@
 <p>{method.considerations}</p>
 <h4>Hoe pas je het toe?</h4>
 <p>{method.application}</p>
-
-<style>
-</style>

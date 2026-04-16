@@ -26,8 +26,6 @@ export const load = async ({ params, fetch }) => {
 }
 
 // Here a POST request is made to the API to submit a new tip for the method in the detail page [SLUG]. 
-// The method ID and the tip content are sent in the request body. 
-// After the tip is successfully added, the user is redirected back to the method detail page.
 export const actions = {
     addTip: async ({ request, fetch }) => {
         // Read form data

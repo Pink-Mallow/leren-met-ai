@@ -2,7 +2,6 @@
   let { data } = $props()
 
   const { method } = data
-  
   import DetailCard from '$lib/components/detailCard.svelte'
   import DetailLecturer from '$lib/components/detailLecturer.svelte'
 </script>
